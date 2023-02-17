@@ -1,0 +1,33 @@
+---
+sidebar_position: 4
+---
+
+# WhatsApp Automation: Conditional Responder
+Building on to our WhatsApp Automation: Auto Responder, we will now give the workflow the ability to send different responses based on the reply sent by the receiver.
+
+Currently, here is the message sent out by the workflow created in [WhatsApp Automation: Auto Responder](whatsapp-automation-auto-responder);
+
+    Thank you for reaching out to Kay Eff See.
+
+    Please let us know how we can help you !
+
+    1 - Find out about pricing
+    2 - Speak to agent directly
+
+    Reply *1* or *2*
+
+_Note: We wrapped asterisk (*) around the digit to make it bold when shown on WhatsApp_
+
+After this message is received by the receiver, they will either respond with 1 or 2:
+- If the receiver respond with 1, we want to send them the pricing detail for the products we offer.
+- If the receiver respond with 2, we want to send an acknowledgement message to their request and immediately inform our internal team via email or WhatsApp.
+
+We call this behavior --- conditional response.
+
+To build this behavior of responding conditionally to different responses received, we will need to use these three additional Actions:
+- Wait
+- If Else
+- Send Internal Notification
+
+
+Enough theory, let's get our hands dirty and start building 🤓

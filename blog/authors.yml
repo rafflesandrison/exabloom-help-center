@@ -15,3 +15,23 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+#### ExaBloom ####
+
+raffles:
+  name: Raffles Andrison
+  title: Co-Founder @ ExaBloom
+  url: https://github.com/rafflesandrison
+  image_url: https://github.com/rafflesandrison.png
+
+gaofei:
+  name: Yu Gao Fei
+  title: Co-Founder @ ExaBloom
+
+terry:
+  name: Terry Seah
+  title: Tech Lead
+
+jennifer:
+  name: Jennifer
+  title: Full-stack Software Engineer
