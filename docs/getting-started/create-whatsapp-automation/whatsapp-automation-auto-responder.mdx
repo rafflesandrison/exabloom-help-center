@@ -1,0 +1,97 @@
+---
+sidebar_position: 2
+---
+
+# WhatsApp Automation: Auto Responder
+For your very first WhatsApp Automation, we will create a **very simple** workflow that automatically sends a reply whenever a contact (who has been tagged with `test-whatsapp`) sends you a WhatsApp message.
+
+### Step 1: Create a workflow
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-navigate-to-workflow-creation.png)
+Go to Workflows and click "+ New workflow"
+
+### Step 2: Creating workflow from scratch
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-start-from-scratch.png)
+Select "Start from scratch" and click "+ Create new workflow" button.
+
+### Step 3: Change workflow name
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-change-workflow-name.png)
+The first thing we always want to do is to give the workflow a meaningful name. Let's change it to "Demo: WhatsApp Automation"
+
+### Step 4: Allow contact to enter this workflow multiple times
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-allow-multiple.png)
+Click "Settings" tab and turn ON "Allow Multiple". When "Allow Multiple" is turned ON, a contact can enter this workflow more than once.
+
+On the flip side, what if we turn OFF "Allow Multiple"? After a contact has entered this workflow, it can NEVER enter this workflow again.
+
+In most cases, we will keep "Allow Multiple" turned ON.
+
+### Step 5: Save your work 
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-after-initial-configuration-save.png)
+At this stage, SAVE your workflow by clicking on "Save" button.
+
+We highly recommend that you SAVE your workflow in between workflow changes rather than saving your entire workflow changes till the very end. This is to ensure that you don't lose your work.
+
+### Step 6: Add trigger
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-initialise-adding-trigger.png)
+Click "Add New Workflow Trigger" to open up the Workflow Trigger list.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-search-for-trigger.png)
+Search for a trigger named "Customer Replied".
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-select-customer-replied-trigger.png)
+Select the "Customer Replied" trigger.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-customer-replied-trigger.png)
+This is the default state of the "Customer Replied" trigger.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-configuring-customer-replied-trigger.png)
+Change the `Workflow Trigger Name` from "Customer Replied" to "Customer Replied (General Enquiry)".
+
+Change the `Filters` to `Has Tag` and select a tag called `test-whatsapp`
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-configured-customer-replied-trigger.png)
+Click "Save Trigger" button to add the trigger to the workflow.
+
+### Step 7: Add action
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-customer-replied-trigger-added.png)
+Click on the plus icon or click on "Add your first Action" to open up the Actions list.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-select-send-sms-action.png)
+Search for an action called "Send SMS" and select the "Send SMS" action.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-send-sms-action-default.png)
+Change the `Action Name` and `Message` to...
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-send-sms-action-filled.png)
+`Action Name` changed to
+
+    WhatsApp Auto-reply
+
+
+`Message` changed to
+
+    Thank you for reaching out to Kay Eff See.
+
+    Please let us know how can we help you !
+
+    1 - Find out about pricing
+    2 - Speak to agent directly
+
+    Reply *1* or *2*
+
+Once you've updated the values, save the action by clicking on "Save Action" button.
+
+### Step 8: Publish workflow
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-publish-workflow.png)
+To publish your workflow, turn ON "Publish".
+
+When "Publish" is OFF, the workflow is not LIVE yet - in other words, not ACTIVE.
+
+When "Publish" is ON, the workflow is LIVE - in other words, ACTIVE.
+
+### Step 9: Save workflow changes
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-save-workflow.png)
+Click "Save" to save the workflow update.
+
+![Start New Workflow](/img/tutorial/getting-started/create-whatsapp-automation/whatsapp-automation-auto-responder/create-whatsapp-automation-auto-responder-saved-workflow.png)
+Now, you are ready to test your auto-responder.
